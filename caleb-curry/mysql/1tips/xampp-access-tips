@@ -1,0 +1,32 @@
+
+
+////////////////////////////
+
+		XAMPP - acesso
+
+////////////////////////////
+
+
+
+
+------------------------------------------
+gerenciar xampp  no prompt
+------------------------------------------
+
+		sudo /opt/lampp/lampp startus
+		sudo /opt/lampp/lampp start
+		sudo /opt/lampp/lampp stop
+		sudo /opt/lampp/lampp restart
+
+
+------------------------------------------
+iniciar mysql no prompt
+------------------------------------------
+
+		sudo /opt/lampp/bin/mysql
+		
+		
+
+
+
+
