@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{}
+main{
+    position: relative;
+    height: 100vh;
+}
+aside{}
+footer{}
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* background-color: yellow; */
+    border-radius: 20px;
+    max-width: 500px;
+    max-height: 350px;
+}
+.container > h1{
+    color: darkred;
+    text-align: center;
+    padding: 10px;
+}
+.grid-container{
+        display: grid;
+        margin: 0 auto;
+        max-width: 400px;
+        border: 1px solid #ccc;
+}
+.grid-item{
+        background-color: tomato;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+}
