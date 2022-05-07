@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{}
+main{
+	height: 100vh;
+	position: relative;
+}
+aside{}
+footer{}
+.container{
+	/*background-color: lightcyan;*/
+	position: absolute;
+	border-radius: 20px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 600px;
+	max-height: 300px;
+}
+.container > h1{
+	color: darkred;
+	padding: 10px;
+        font-size: 2em;
+	text-align: center;	
+}
+.grid-container{
+	display: grid;
+	margin: 0 auto;
+	border: 1px solid #000;
+	max-width: 400px;
+}
+.grid-item{
+	background-color: darkcyan;
+	color: white;
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	height: 40px;
+
+}
