@@ -11,7 +11,7 @@ main{
 aside{}
 footer{}
 .container{
-	/*background-color: lightcyan;*/
+	background-color: #ccc;
 	position: absolute;
 	border-radius: 20px;
 	top: 0;
@@ -20,19 +20,19 @@ footer{}
 	right: 0;
 	margin: auto;
 	max-width: 600px;
-	max-height: 300px;
+	height: 300px;
 }
 .container > h1{
 	color: darkred;
 	padding: 10px;
-        font-size: 2em;
+    	font-size: 2em;
 	text-align: center;	
 }
 .grid-container{
 	display: grid;
 	margin: 0 auto;
-	border: 1px solid #000;
 	max-width: 400px;
+		max-height: 250px;
 }
 .grid-item{
 	background-color: darkcyan;
@@ -41,6 +41,14 @@ footer{}
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
-	height: 40px;
-
+	min-height: 40px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #000;
 }
+.grid-item > p{
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
