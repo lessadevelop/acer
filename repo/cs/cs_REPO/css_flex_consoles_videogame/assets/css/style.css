@@ -60,7 +60,7 @@ header > ul > li:hover{
 
 					/*a main é o grid-container*/
 main{
-	display: grid;                   
+	display: grid;                
 	grid-template-columns: 100vw;
 	grid-template-rows: 20vh 80vh;
 	justify-content: center;
