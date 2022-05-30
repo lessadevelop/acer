@@ -1,0 +1,34 @@
+RENOMEAR BRANCH LOCAL
+----------------------------------------------------------
+
+            
+            
+EXEMPLO....    mudar de ... MASTER.... para..... MAIN:
+
+        git checkout master
+
+
+
+listando:
+
+        git branch --list
+
+
+
+renomeando
+
+        git branch -m main
+
+
+
+
+todos os branch... locais e remotos
+
+        git branch -a
+
+        
+
+
+na hora do PUSH... não esqueça de especificar
+
+        git push origin -u main
