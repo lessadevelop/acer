@@ -1,0 +1,9 @@
+----------------------------------------------------------------------------
+CONFIGURAÇÃO INICIAL - GLOBAL
+----------------------------------------------------------------------------
+
+git config --global user.name "fulano"             - com aspas
+git config --global user.email fulano@gmail.com    - sem aspas
+git config --list
+
+----------------------------------------------------------------------------
